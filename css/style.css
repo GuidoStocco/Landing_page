@@ -52,3 +52,11 @@
 #disclaimer .event-date{
     font-weight: bold;
 }
+
+#subscription-form{
+    padding: 2em;
+    background-color: var(--secundary);
+    width: 22%;
+}
+
+
