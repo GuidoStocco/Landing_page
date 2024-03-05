@@ -225,5 +225,16 @@
 .detail-description{
     width: 100%;
     padding: 2em;
-    
+}
+
+.detail-description ul{
+    list-style-position: inside ;
+}
+
+.detail-description ul li{
+    margin-bottom: 0.4em;
+}
+
+.detail-description li:last-child{
+    font-weight: bold;
 }
