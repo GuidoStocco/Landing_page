@@ -265,3 +265,30 @@
     font-weight: 600;
     font-size: 1.2em;
 }
+
+/*footer*/
+
+#footer{
+    align-items: center;
+    color: var(--secundary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2em;
+}
+
+#footer h3{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+#footer p:nth-child(2){
+    margin-bottom:1em ;
+    font-size: 1.2em;
+}
+
+#footer span{
+    font-weight: bold;
+    
+}
