@@ -209,3 +209,21 @@
 .detail img{
     width: 50%;
 }
+
+.detail h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+#detail-1 h3{
+    font-size: 3em;
+    font-weight: 700;
+    
+}
+
+.detail-description{
+    width: 100%;
+    padding: 2em;
+    
+}
