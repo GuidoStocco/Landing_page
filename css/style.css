@@ -296,6 +296,10 @@
 /*MEDIA QUERY*/
 
 @media (max-width:450px){
+    .btn{
+        opacity: 1;
+    }
+
     #event-description{
         flex-direction: column;
         height: auto;
@@ -312,6 +316,11 @@
     #subscription-form{
         width: 70%;
         margin-bottom: 2em;
+    }
+
+    #subscription-form .btn{
+        width: 100%;
+        font-size: 1em;
     }
 
     .benefits{
@@ -354,5 +363,40 @@
 
     #about-location p{
         display: none;
+    }
+
+    .detail{
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail img{
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img{
+        display: none;
+    }
+
+    .detail-description{
+        padding: 0;
+    }
+
+    #detail-3 img{
+        order: 2;
+    }
+
+    #detail-3 .detail-description{
+        order: 1;
+    }
+
+    #cta{
+        text-align: center;
+    }
+
+    #cta .btn{
+        width: 80%;
     }
 }
